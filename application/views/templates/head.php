@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url(); ?>assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon.png" />
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>	
 	<title><?php echo $title; ?></title>
     <!--[if lt IE 9]>
