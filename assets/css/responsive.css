@@ -1,0 +1,60 @@
+﻿.aside {
+	float:none;
+	width:100%;
+	clear:both;
+}
+
+.section2_main {
+	width:100%;
+	float:left;
+}
+
+@media screen and (max-width: 800px){
+.menu_top {
+	display:none;
+}
+}
+
+.links_jos1 {
+	width:100%;
+	display:block;
+	text-align:center;
+	float:none;
+	margin-top:25px;
+}
+
+@media screen and (max-width: 1600px){
+.dispare1{
+	display:none;
+}
+
+.round_div {
+	width:19%;
+	float:left;
+	margin-right:1%;
+}
+
+}
+
+@media screen and (max-width: 1300px){
+.dispare2{
+	display:none;
+}
+
+.round_div {
+	width:24%;
+	float:left;
+	margin-right:1%;
+}
+
+}
+
+.dispare3{
+	display:none;
+}
+
+.round_div {
+	width:32%;
+	float:left;
+	margin-right:1%;
+}
