@@ -2,6 +2,12 @@
 <div class="section2">
 			<div class="section2_container1">
 				<div class="section2_main">
+					<div class="section2_div1">
+						<div class="running_chicago">
+							<h4 class="link_title">blog</h4>
+							<p class="text_gri">A cute little description would go in here</p>
+						</div>
+					</div>
 					
 					
 						<?php 	
@@ -15,18 +21,16 @@
 							
 							switch($i)
 					{ 
-						case 2: 
-							$comentarii = 'lista_comentarii1';
+						case 4: 
+							$paragraf = ' ';
 						break;
 
-						case 4: 
-						$comentarii = 'lista_comentarii1';
-						break;
+						
 						
 						
 						
 						default:
-							$comentarii = 'lista_comentarii';
+							$paragraf = 'paragraf_lung';
 						
 					}
 								
@@ -46,7 +50,7 @@
 						<div class="running_chicago"><!-- container text prima sectiune partea stanga -->
 							<a href="#" class="fun"><?php echo $row->categ; ?></a>
 							<h4><a href="#" class="link_title"><?php echo $row->title; ?></a></h4><!-- link -->
-							<ul class="<?php echo $comentarii; ?>"><!-- comentarii-->
+							<ul class="lista_comentarii"><!-- comentarii-->
 								<li class="data_comentariu"><a href="#"><?php echo $row->date; ?></a></li>
 								<li class="comentarii"><a href="#"><?php echo $row->comments; ?></a></li>
 								<li class="autor"><span class="by">By</span><a href="#"><?php echo $row->author; ?></a></li>
@@ -57,7 +61,7 @@
 								{
 								?>
 							
-							<p class="paragraf_lung "><?php echo $row->par1; ?></p>
+							<p class="<?php echo  $paragraf; ?>"><?php echo $row->par1; ?></p>
 								<?php
 								}
 							?>
@@ -80,7 +84,7 @@
 								{
 								?>
 							
-							<p class="paragraf_lung "><?php echo $row->par2; ?>
+							<p class="<?php echo  $paragraf; ?> "><?php echo $row->par2; ?>
 							</p>
 							
 								<?php
