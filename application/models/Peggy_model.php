@@ -21,4 +21,8 @@ class Peggy_model extends CI_Model {
 		return $query->result();
 	}
 	
+	public function get_content_blog(){
+		$query = $this->db->get('content_blog');
+		return $query->result();
+	}
 }
