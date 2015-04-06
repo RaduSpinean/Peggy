@@ -40,8 +40,12 @@ class Site extends CI_Controller {
 		$data['title'] = "Contact Me";
 		$this->load->view('templates/head',$data);
 		$this->load->view('templates/header');
-		$this->load->view('templates/aside');
-		$this->load->view('templates/footer');
+		$this->load->view('pages/contact/contact');	
+		$this->load->model('Peggy_model');			
+		$data3['results'] = $this->Peggy_model->get_aside();
+		$this->load->view('templates/aside', $data3);
+		$data4['results'] = $this->Peggy_model->get_aside();
+		$this->load->view('templates/footer', $data4);		
 	}
 
 	public function blog(){
