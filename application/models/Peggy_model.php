@@ -30,9 +30,5 @@ class Peggy_model extends CI_Model {
 		$query = $this->db->get('content_blog');
 		return $query->result();
 	}
-	
-	public function get_about(){
-		$query = $this->db->get('about');
-		return $query->result();
-	}
 }
+
