@@ -9,10 +9,12 @@
 					<div class="nav"><!-- containerul meniului top -->
 						<div class="menu_top"><!-- meniul de stanga sus -->
 							<ul>
-								<li><a href="<?php echo base_url(); ?>site/home" class="active" >Home</a></li>
-								<li><a href="<?php echo base_url(); ?>site/about">About me</a></li>
-								<li><a href="<?php echo base_url(); ?>site/blog">Blog</a></li>
-								<li><a href="<?php echo base_url(); ?>site/contact">Contact me</a></li>
+								<li><a href="<?php echo base_url(); ?>site/home" 
+								 class="<?php if($this->uri->segment(2)=="home"){echo "active";}?>">Home</a></li>
+								<li><a href="<?php echo base_url(); ?>site/about" 
+								class="<?php if($this->uri->segment(2)=="about"){echo "active";}?>">About me</a></li>
+								<li><a href="<?php echo base_url(); ?>site/blog"  class="<?php if($this->uri->segment(2)=="blog"){echo "active";}?>">Blog</a></li>
+								<li><a href="<?php echo base_url(); ?>site/contact" class="<?php if($this->uri->segment(2)=="contact"){echo "active";}?>" >Contact me</a></li>
 								<li><a href="#"><i class="fa fa-cog"></i></a></li>
 							</ul>
 						</div><!-- end meniul de stanga sus -->

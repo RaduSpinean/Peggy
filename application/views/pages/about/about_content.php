@@ -1,3 +1,4 @@
+<?php $thispage = "about";?>
 		<div class="section2">
 			<div class="section2_container1">
 				<div class="section2_main">

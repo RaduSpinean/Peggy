@@ -62,7 +62,7 @@
 }
 
 .active {
-	color:#E91E63;
+	color:#E91E63 !important;
 }
 .nav {
 	padding:0 32px;
@@ -210,9 +210,6 @@
 	
 }
 
-.dispare {
-	display:none !important;
-}
 
 .dissapear {
 	width:100%;
