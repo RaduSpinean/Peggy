@@ -4,12 +4,12 @@
 			<div class="content_menu">
 				<div class="menu">
 					<div class="logo_left"><!-- logo -->
-						<a href="home.html" id="top">Peggy</a>
+						<a href="<?php echo base_url(); ?>site/home" id="top">Peggy</a>
 					</div><!-- end logo -->
 					<div class="nav"><!-- containerul meniului top -->
 						<div class="menu_top"><!-- meniul de stanga sus -->
 							<ul>
-								<li><a href="<?php echo base_url(); ?>site/home" class="active" style="color:#E91E63;">Home</a></li>
+								<li><a href="<?php echo base_url(); ?>site/home" class="active" >Home</a></li>
 								<li><a href="<?php echo base_url(); ?>site/about">About me</a></li>
 								<li><a href="<?php echo base_url(); ?>site/blog">Blog</a></li>
 								<li><a href="<?php echo base_url(); ?>site/contact">Contact me</a></li>
