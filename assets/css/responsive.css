@@ -1,4 +1,45 @@
-﻿.aside {
+﻿
+
+
+
+
+
+
+@media screen and (max-width:1800px){
+	
+	.section1_links{
+		width:100%;
+	}	
+	
+	.pic6, .pic5{
+		display:none;
+	}	
+	
+	.round_div{
+		width:22%;
+	}
+	
+}
+
+@media screen and (max-width:1600px){
+	
+	.section1_links{
+		width:100%;
+	}	
+	
+	.pic4{
+		display:none;
+	}	
+	
+	.round_div{
+		width:30%;
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+.aside {
 	float:none;
 	width:100%;
 	clear:both;
@@ -9,11 +50,24 @@
 	float:left;
 }
 
-@media screen and (max-width: 800px){
+.section1_links{
+	width:100%;
+}	
+
+.pic3{
+	display:none;
+}	
+
+.round_div{
+	width:47%;
+}
+}
+
+@media screen and (max-width: 900px){
 .menu_top {
 	display:none;
 }
-}
+
 
 .links_jos1 {
 	width:100%;
@@ -22,39 +76,20 @@
 	float:none;
 	margin-top:25px;
 }
-
-@media screen and (max-width: 1600px){
-.dispare1{
-	display:none;
 }
 
-.round_div {
-	width:19%;
-	float:left;
-	margin-right:1%;
-}
-
-}
-
-@media screen and (max-width: 1300px){
-.dispare2{
-	display:none;
-}
-
-.round_div {
-	width:24%;
-	float:left;
-	margin-right:1%;
-}
-
-}
-
-.dispare3{
-	display:none;
-}
-
-.round_div {
-	width:32%;
-	float:left;
-	margin-right:1%;
+@media screen and (max-width:500px){
+	
+	.section1_links{
+		width:100%;
+	}	
+	
+	.pic2{
+		display:none;
+	}	
+	
+	.round_div{
+		width:95%;
+	}
+	
 }

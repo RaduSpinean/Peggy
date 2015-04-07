@@ -321,6 +321,7 @@
 	max-width:1680px;
 	padding:0 26px;
 	box-sizing: border-box;
+	overflow:hidden;
 }
 /*  poze rotunde prima sectiune*/
 .round_div {
@@ -787,7 +788,7 @@
 	width:100%;
 	display:block;
 	background-color:#fff;
-	overflow:auto;
+	overflow:hidden;
 	margin-top: 3em;
 	padding: 4em 0 3em 0;
 }
@@ -841,7 +842,7 @@
 	width:100%;
 	display:block;
 	box-sizing: border-box;
-	overflow:auto;
+	overflow:hidden;
 }
 
 .footer_wrap {
@@ -849,6 +850,7 @@
 	width:100%;
 	max-width:1560px;
 	margin:0 auto;
+	overflow:hidden;
 }
 
 .footer_text {
