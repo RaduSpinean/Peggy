@@ -30,7 +30,7 @@ class Site extends CI_Controller {
 		$this->load->view('templates/head',$data);
 		$this->load->view('templates/header');
 		$this->load->model('Peggy_model');
-		$data2['results'] = $this->Peggy_model->get_content_blog();
+		$data2['results'] = $this->Peggy_model->get_about();
 		$this->load->view('pages/about/about_content', $data2);
 		$data3['results'] = $this->Peggy_model->get_aside();
 		$this->load->view('templates/aside', $data3);
