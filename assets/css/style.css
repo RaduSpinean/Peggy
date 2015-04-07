@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: 'Josefin Slab';
-  src:url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+	src:url(http://fonts.googleapis.com/css?family=Josefin+Slab); font-family: 'Droid Serif';
+	src:url(http://fonts.googleapis.com/css?family=Droid+Serif);
 }
 
 .container{
@@ -505,6 +506,8 @@
 	padding: 1em 0.75em;
 	width: 100%;
 	display:block;
+	font-family:"Droid Serif";
+	color:#455a64;
 }
 
 .aside_list li {
@@ -667,6 +670,29 @@
 	text-align:left;
 	margin: 1em 0 1.5em 0;
 	font-size:18px;
+	font-family:"Droid Serif";
+	color:#455a64;
+}
+
+.paragraf_lung1 {
+	text-align:left;
+	margin: 1em 0 1.5em 0;
+	font-size:14px;
+	font-family:"Droid Serif";
+	color:#455a64;
+	display:block;
+	padding:0 35px;
+}
+
+.paragraf_lung2 {
+	text-align:left;
+	margin: 1em 0 1.5em 0;
+	font-size:16px;
+	font-family:"Droid Serif";
+	color:#455a64;
+	display:block;
+	padding:0 5px;
+	line-height:25px;
 }
 
 .citat {
@@ -967,10 +993,6 @@
 	border-radius:100%;
 }
 
-.section2_about p {
-	margin: 1em 0 1.5em 0;
-	font-size:20px;
-}
 
 .harta {
 	width:100%;

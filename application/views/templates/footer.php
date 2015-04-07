@@ -3,7 +3,7 @@
 				<div class="links_jos1"><!-- links jos primul div-->
 					<img src="<?php echo base_url(); ?>assets/images/about-me.jpg" alt="about me"/>
 					<h4 class="titlu_jos">clare smith</h4>
-					<p class="paragraf_lung" style="text-align:center;">My name is Clare and I'm a serial blogger. I love life and more than anything in the whole wide world, I love taking photographs. Oh and did I mention, I quite like blogging?</p>
+					<p class="paragraf_lung1" style="text-align:center;">My name is Clare and I'm a serial blogger. I love life and more than anything in the whole wide world, I love taking photographs. Oh and did I mention, I quite like blogging?</p>
 				</div><!-- end links jos primul div-->
 				<?php
 					if(is_array($results) && !empty($results))					
